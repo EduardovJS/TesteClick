@@ -1,6 +1,6 @@
 ﻿let contador = 0;
 let tempo;
-let cronometro = 30;
+let cronometro = 5;
 let tempoAcabou = false;
 let cronometroIniciado = false;
 
@@ -20,7 +20,7 @@ function Intervalo() {
         cronometro = cronometro - 1; // Decrementa o cronômetro a cada segundo
         document.getElementById('tempo').innerHTML = cronometro;
 
-        if (cronometro <= 0) {
+        if (cronometro <= -1) {
             clearInterval(tempo); // Limpa o intervalo
             tempoAcabou = true; // Define que o tempo acabou
             alert("Sua pontuação foi de " + contador); // Exibe o alerta com a pontuação final
@@ -31,9 +31,13 @@ function Intervalo() {
 
 function ReniciarJogo() {
     contador = 0;
-    cronometro = 30;
+    cronometro = 5;
     tempoAcabou = false;
     cronometroIniciado = false;
     document.getElementById("contador").textContent = "Total de Cliques: 0";
-    document.getElementById("tempo").textContent = "30";
+    document.getElementById("tempo").textContent = "5";
 }
+
+const video = document.getElementById('background-video');
+video.muted = false;
+video.play();

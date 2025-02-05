@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d1hNh6DrU8fnb7fwsaAac9b+FJ5hy+8lHtjjrsOdhMQ=",
+  "Hash": "EXinc+SnGbkrSjslLVDAhjlzktmCmiLKK9x+WZb5bt4=",
   "Source": "TesteClick",
   "BasePath": "_content/TesteClick",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\TesteClick\\TesteClick\\wwwroot\\video\\videoplayback.mp4",
+      "SourceId": "TesteClick",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TesteClick\\TesteClick\\wwwroot\\",
+      "BasePath": "_content/TesteClick",
+      "RelativePath": "video/videoplayback.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\video\\videoplayback.mp4"
     }
   ]
 }

@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5072747-61F1-4EB7-9383-FC8161CA9D20}|TesteClick\\TesteClick.csproj|d:\\testeclick\\testeclick\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B5072747-61F1-4EB7-9383-FC8161CA9D20}|TesteClick\\TesteClick.csproj|solutionrelative:testeclick\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5072747-61F1-4EB7-9383-FC8161CA9D20}|TesteClick\\TesteClick.csproj|d:\\testeclick\\testeclick\\views\\testeclick\\testeclick.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B5072747-61F1-4EB7-9383-FC8161CA9D20}|TesteClick\\TesteClick.csproj|solutionrelative:testeclick\\views\\testeclick\\testeclick.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,22 +42,9 @@
               "RelativeDocumentMoniker": "TesteClick\\wwwroot\\js\\site.js",
               "ToolTip": "D:\\TesteClick\\TesteClick\\wwwroot\\js\\site.js",
               "RelativeToolTip": "TesteClick\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBoAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-03T23:22:31.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TesteClick.cshtml",
-              "DocumentMoniker": "D:\\TesteClick\\TesteClick\\Views\\TesteClick\\TesteClick.cshtml",
-              "RelativeDocumentMoniker": "TesteClick\\Views\\TesteClick\\TesteClick.cshtml",
-              "ToolTip": "D:\\TesteClick\\TesteClick\\Views\\TesteClick\\TesteClick.cshtml",
-              "RelativeToolTip": "TesteClick\\Views\\TesteClick\\TesteClick.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-31T00:43:49.089Z",
+              "WhenOpened": "2025-02-05T02:28:47.4Z",
               "EditorCaption": ""
             }
           ]
