@@ -1,9 +1,8 @@
 ﻿let contador = 0;
 let tempo;
-let cronometro = 5;
+let cronometro = 30;
 let tempoAcabou = false;
 let cronometroIniciado = false;
-
 
 function EventoClick() {
     if (!cronometroIniciado) {
@@ -28,16 +27,19 @@ function Intervalo() {
         }
     }, 1000);
 }
-
 function ReniciarJogo() {
     contador = 0;
-    cronometro = 5;
+    cronometro = 30;
     tempoAcabou = false;
     cronometroIniciado = false;
     document.getElementById("contador").textContent = "Total de Cliques: 0";
-    document.getElementById("tempo").textContent = "5";
+    document.getElementById("tempo").textContent = "30";
 }
 
-const video = document.getElementById('background-video');
-video.muted = false;
-video.play();
+const video = document.getElementById('video');
+const audio = document.getElementById('audio');
+const playButton = document.getElementById('playButton');
+playButton.addEventListener('click', function () {
+    video.play();
+    audio.play();
+});

@@ -245,8 +245,16 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\TesteClick\\TesteClick\\wwwroot\\video\\videoplayback.mp4",
-      "PackagePath": "staticwebassets\\video\\videoplayback.mp4"
+      "Id": "D:\\TesteClick\\TesteClick\\wwwroot\\video\\HXVRMXN, keelse - MO RE (speed up).mp4",
+      "PackagePath": "staticwebassets\\video\\HXVRMXN, keelse - MO RE (speed up).mp4"
+    },
+    {
+      "Id": "D:\\TesteClick\\TesteClick\\wwwroot\\video\\RUSSIAN ANIME BE LIKE.mp4",
+      "PackagePath": "staticwebassets\\video\\RUSSIAN ANIME BE LIKE.mp4"
+    },
+    {
+      "Id": "D:\\TesteClick\\TesteClick\\wwwroot\\video\\audio.mp3",
+      "PackagePath": "staticwebassets\\video\\audio.mp3"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TesteClick.Microsoft.AspNetCore.StaticWebAssets.props",
