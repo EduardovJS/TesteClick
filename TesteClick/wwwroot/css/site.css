@@ -1,3 +1,17 @@
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,17 +19,14 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     width: 100%;
     height: 100vh;
     position: relative;
     margin: 0; /* Remover margens que podem afetar o comportamento da tela */
-}
-
-section {
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .videoclass {
@@ -31,58 +42,35 @@ section {
     z-index: -1;
 }
 
-button {
+#formulario {
     text-align: center;
-    background-color: #b200ff;
-    width: 70%;
-    height: 350px;
-    padding: 0;
-    border-radius: 7px;
-    border: 1px solid rgb(61, 106, 255);
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    background: transparent;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 0 0 0 transparent;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
+    padding: 20px;
 }
-button:hover {
-    background: rgb(61, 106, 255);
-    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+
+#navas {
+    margin-bottom: 30px;
 }
-button:hover::before {
-        -webkit-animation: sh02 0.5s 0s linear;
-        -moz-animation: sh02 0.5s 0s linear;
-        animation: sh02 0.5s 0s linear;
+
+.btn {
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    padding: 15px 30px; /* Aumenta o tamanho do botão */
+    
 }
-button::before {
-        content: '';
-        display: block;
-        width: 0px;
-        height: 86%;
-        position: absolute;
-        top: 7%;
-        left: 0%;
-        opacity: 0;
-        background: #fff;
-        box-shadow: 0 0 50px 30px #fff;
-        -webkit-transform: skewX(-20deg);
-        -moz-transform: skewX(-20deg);
-        -ms-transform: skewX(-20deg);
-        -o-transform: skewX(-20deg);
-        transform: skewX(-20deg);
+
+.btn-outline-success {
+    color: green;
+    border-color: green;
 }
-button:active {
-  box-shadow: 0 0 0 0 transparent;
-  -webkit-transition: box-shadow 0.2s ease-in;
-  -moz-transition: box-shadow 0.2s ease-in;
-  transition: box-shadow 0.2s ease-in;
+
+.info {
+    margin-top: 4px; /* Espaçamento maior entre as tags a e o clique */
+}
+
+    .info .btn {
+        font-size: 14px; /* Aumenta o tamanho do botão "Clique" */
+        padding: 200px
+    }
+
+.blinking{
+    animation: blink 0.5s infinite;
 }
